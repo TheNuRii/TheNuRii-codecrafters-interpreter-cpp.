@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
                 cout << "SLASH / null" << '\n';
                 break;    
             default:
-                cerr << "[line 1] Error: Unexpected character:" << c << '\n';
+                cerr << "[line 1] Error: Unexpected character: " << c << '\n';
                 exit(65);
             }
         }
