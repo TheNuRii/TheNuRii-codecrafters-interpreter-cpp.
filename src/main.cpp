@@ -61,10 +61,10 @@ int main(int argc, char *argv[]) {
                 break;
             case '/':
                 cout << "SLASH / null" << '\n';
-                break;
+                break;    
             default:
-                cout << "IDENTIFIER " << c << " null" << '\n';
-                break;
+                cerr << "[line 1] Error: Unexpected character:" << c << '\n';
+                exit(65);
             }
         }
         
