@@ -35,7 +35,14 @@ int main(int argc, char *argv[]) {
             case ')':
                 cout << "RIGHT_PAREN ) null" << '\n';
                 break;
+            case '{':
+                cout << "LEFT_BRACE { null" << '\n';
+                break;
+            case '}':
+                cout << "RIGHT_BRACE } null" << '\n';
+                break;
             default:
+                cout << "IDENTIFIER " << c << " null" << '\n';
                 break;
             }
         }
