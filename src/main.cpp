@@ -47,13 +47,14 @@ int main(int argc, char *argv[]) {
             case '.':
                 cout << "DOT . null" << '\n';
                 break;
-            case '-':
-                cout << "MINUS - null" << '\n';
+            case ';':
+                cout << "SEMICOLON ; null" << '\n';
                 break;
             case '+':
                 cout << "PLUS + null" << '\n';
-            case ';':
-                cout << "SEMICOLON ; null" << '\n';
+                break;
+            case '-':
+                cout << "MINUS - null" << '\n';
                 break;
             case '*':
                 cout << "STAR * null" << '\n';
