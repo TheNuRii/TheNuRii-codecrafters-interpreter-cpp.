@@ -26,14 +26,14 @@ int main(int argc, char *argv[]) {
     if (command == "tokenize") {
         string file_contents = read_file_contents(argv[2]);
         
-        for (auto character : file_contents) {
-            switch (character)
+        for (auto c: file_contents) {
+            switch (c)
             {
             case '(':
-                cout << "LEFT_PAREN null\n"; 
+                cout << "LEFT_PAREN ( null" << '\n'; 
                 break;
             case ')':
-                cout << "RIGHT_PAREN null\n";
+                cout << "RIGHT_PAREN ) null" << '\n';
                 break;
             default:
                 break;
